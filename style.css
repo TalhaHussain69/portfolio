@@ -19,13 +19,13 @@
       color: var(--text);
       font-family: 'Outfit', sans-serif;
       overflow-x: hidden;
-      cursor: none;
+      /* cursor: none; */
     }
 
     /* ── CUSTOM CURSOR ── */
-    #cursor { position:fixed;width:10px;height:10px;background:var(--accent);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .1s,background .2s; }
+    /* #cursor { position:fixed;width:10px;height:10px;background:var(--accent);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .1s,background .2s; }
     #cursor-ring { position:fixed;width:36px;height:36px;border:1.5px solid var(--accent);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:left .12s ease,top .12s ease,width .3s,height .3s,border-color .3s; }
-    body:has(a:hover) #cursor-ring, body:has(button:hover) #cursor-ring { width:54px;height:54px;border-color:var(--accent2); }
+    body:has(a:hover) #cursor-ring, body:has(button:hover) #cursor-ring { width:54px;height:54px;border-color:var(--accent2); } */
 
     /* ── NOISE OVERLAY ── */
     body::before {
